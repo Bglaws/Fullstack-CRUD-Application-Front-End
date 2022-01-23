@@ -3,9 +3,9 @@ import Navbar from './Navbar';
 
 export default function Home() {
     return (
-        <div>
-            <header> Home </header>
+        <div className='body'>
             <Navbar/>
+            <header> Home </header>
         </div>
     );
 }

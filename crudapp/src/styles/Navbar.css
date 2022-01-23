@@ -1,0 +1,45 @@
+a {
+    color: #1D2D3C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(236, 127, 84);
+}
+
+.nav-banner {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    height: 60px;
+    padding: 20px 20px;
+}
+
+.nav-logo {
+    height: 80px;
+    width: 100px;
+    margin-right: 7px;
+    margin: 0;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-home {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-students{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+.nav-campuses {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+}
