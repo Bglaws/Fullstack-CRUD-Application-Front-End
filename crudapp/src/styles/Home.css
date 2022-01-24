@@ -1,5 +1,64 @@
 body {
-    background-image: url("../img/chalkboard.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: rgb(185, 201, 185);
+}
+
+#welcome {
+  font-size: 40px;
+  color: rgb(64, 31, 250);
+  text-align: center;
+}
+
+#divs {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.home-subheading {
+  font-size: 28px;
+  color: rgb(216, 99, 21);
+  text-decoration: underline;
+}
+
+.home-college-img {
+  width: 480px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.home-students-img {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.college-div {
+  margin: 0;
+  padding: 15px 15px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0ch;
+  box-sizing: border-box;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.college-div:hover,
+.students-div:hover {
+  box-shadow: inset 0 0 15px rgb(0, 38, 151);
+}
+
+.students-div {
+  margin-left: 40px;
+  padding: 15px 15px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0ch;
+  box-sizing: border-box;
+  width: fit-content;
+  cursor: pointer;
 }

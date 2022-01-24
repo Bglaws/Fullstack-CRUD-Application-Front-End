@@ -1,0 +1,54 @@
+.student-label {
+  color: black;
+  font-weight: bold;
+}
+
+.student-input {
+  width: 300px;
+}
+
+.createStudentForm {
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input:focus {
+  border: 2px solid #555;
+}
+
+/* input[type='button'],
+input[type='submit'],
+input[type='reset'] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+} */
+
+.student-card {
+  display: inline-flex;
+}
+
+.one-student {
+  border: 1px solid black;
+  margin-right: 20px;
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  word-wrap: break-word;
+  border-radius: 10px;
+}
